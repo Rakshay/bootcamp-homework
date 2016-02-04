@@ -1,0 +1,57 @@
+.global
+{margin: 0 auto;width:250px;height:270px;background-color:#f3f3f3;    padding: 20px;
+}
+#remember
+{
+	float:left;
+}
+#sign_in
+{
+	float:right;
+}
+#password
+{
+	float:left;
+}
+#forgot
+{
+	float:right;
+}
+label
+{
+	display:inline;
+}
+body
+{
+background-color: #f9f9f9 !important
+}
+
+.primary
+{
+	margin-top:0 !important;
+}
+
+fieldset{
+	border-radius:5px;
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 10px;
+	border: 1px solid #fa715a;
+
+
+}
+h2
+{
+	margin-top: 0px;
+}
+legend{
+	text-align: center;
+}
+h3
+{
+	margin-top: 0px;
+}
+#bottom
+{
+	text-align: center;
+}

@@ -53,9 +53,8 @@ $(document).ready(function()
 	      xhr.setRequestHeader('X-Mashape-Key', 'Bs5BvTwMeNmshIVgyxatfWRfPMkNp1Dmi30jsnLUNZ8zyDyBW8');
 	    }
     });
-	
-		
 
 	$('#fromDropDown,#toDropDown').on('change',update);
-	$('#valueInput').on('keyup',update);
+	$('#valueInput').on('keyup',_.debounce(update,500));
+
 });
